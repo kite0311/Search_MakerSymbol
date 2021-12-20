@@ -7,7 +7,7 @@ if(isset($_GET["symbol"]) && isset($_GET["maker_name"])) { //DataCheck
     if(!empty($symbol && $maker)) {
         require_once("db_connect.php");
                 try {
-                    $dbh = new PDO($dsn,$username,$password,);
+                    $dbh = new PDO($dsn,$username,$password);
                     $stmt = $dbh->prepare("SELECT * FROM search WHERE symbol = (:symbol) AND maker_name LIKE (:maker_name)");
                         if($stmt) {
                             $stmt->bindValue(':symbol', $symbol, PDO::PARAM_STR);
@@ -22,7 +22,7 @@ if(isset($_GET["symbol"]) && isset($_GET["maker_name"])) { //DataCheck
         }else if(!empty($symbol)){
             require_once("db_connect.php");
                 try {
-                    $dbh = new PDO($dsn,$username,$password,);
+                    $dbh = new PDO($dsn,$username,$password);
                     $stmt = $dbh->prepare("SELECT * FROM search WHERE symbol = (:symbol) ");  
                         if($stmt) {
                             $stmt->bindValue(':symbol', $symbol, PDO::PARAM_STR);
