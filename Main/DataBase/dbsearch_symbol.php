@@ -34,8 +34,6 @@ if(isset($_GET["symbol"]) && isset($_GET["maker_name"])) { //DataCheck
                     } catch(PDOException $e) {
                         echo 'DB接続エラー :' . $e->getMessage();
                     }
-        }else{
-            $sy_errors['error'] = "<p>"."※記号入力は必須です"."</p>";
-        }
+                }
     }
 ?>
