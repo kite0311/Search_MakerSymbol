@@ -9,7 +9,7 @@
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 </head>
 <body>
-<form action="home.php" method="get">
+<form action="" method="get">
 <!--Main Title-->
 <a href="index.php"><h1 align="center">製造所固有記号検索</h1></a>
 </nav>
