@@ -37,7 +37,6 @@
 <!--Result-->
 <table border="2">
 <tr><td>所在地</td><td>記号</td><td>法人番号</td><td>製造者名</td><td>製造者所在地</td></tr>
-<?php  ?>
 <?php
     if($rows){
         echo count($rows)."件ヒットしました";
