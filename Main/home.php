@@ -43,8 +43,8 @@
     }else{
         echo "該当データは存在しません";
     }
-    foreach($rows as $row){
 ?>
+<? foreach($rows as $row){ ?>
 <tr>
 <td><?=htmlspecialchars($row['prefecture'],ENT_QUOTES,'UTF-8')?></td>
 <td><?=htmlspecialchars($row['symbol'],ENT_QUOTES,'UTF-8')?></td>
@@ -52,9 +52,7 @@
 <td><a href="detail_transmission.php<?php $maker_name = $row['maker_name'];?>"><?=htmlspecialchars($row['maker_name'],ENT_QUOTES,'UTF-8')?></a></td>
 <td><a href="https://www.google.com/maps/place/<?php echo $row['maker_address']?>"><?=htmlspecialchars($row['maker_address'],ENT_QUOTES,'UTF-8')?></a></td>
 </tr>
-<?php
-    }
-?>
+<? } ?>
 <!--Error_Count-->
 <?php if(count($sy_errors) > 0): ?>
 <?php
