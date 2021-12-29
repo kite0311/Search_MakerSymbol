@@ -4,8 +4,8 @@ try {
     $dbh = new PDO($dsn,$username,$password,);
     $sql = "SELECT COUNT(*) FROM search";
     $stmt = $dbh->query($sql);
-    foreach ($stmt as $row)
-    {
+
+    foreach ($stmt as $row) {
         echo "現在" .$row[0] ."件のデータが登録されています。";
     }
     $dbh = null;
