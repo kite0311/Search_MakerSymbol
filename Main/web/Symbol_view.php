@@ -20,18 +20,8 @@ include("../app/web_parts/search_area.php");
 
 require("../app/web_parts/search_result.php");
 
+include("../app/web_parts/_footer.php");
 ?>
 
-
-<!--close Window-->
-                <div class="close_button">
-                    <hr width="98%">
-                    <table width="100%">
-                        <tr align="center">
-                            <td class="item_button"><input class="button" name="back" type="button" value="閉じる" /></td>
-                        </tr>
-                    </table>
-                </div>
-            <footer>フッター</footer>
     </body>
 </html>
