@@ -6,7 +6,7 @@ try {
     $stmt = $dbh->query($sql);
 
     foreach ($stmt as $row) {
-        echo "現在" .$row[0] ."件のデータが登録されています。";
+        echo "現在" .$row[0] ."件のデータが登録されています";
     }
     $dbh = null;
     //DB接続エラー
