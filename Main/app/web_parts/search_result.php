@@ -16,7 +16,7 @@
                         <td><?=htmlspecialchars($row['symbol'],ENT_QUOTES,'UTF-8')?></td>
                         <td><?=htmlspecialchars($row['number'],ENT_QUOTES,'UTF-8')?></td>
                         <td><?=htmlspecialchars($row['maker_name'],ENT_QUOTES,'UTF-8')?></td>
-                        <td><a href="https://www.google.com/maps/place/<?php echo $row['maker_address']?>"><?=htmlspecialchars($row['maker_address'],ENT_QUOTES,'UTF-8')?></a></td>
+                        <td><a href="https://www.google.com/maps/place/<?= $row['maker_address']?>"><?=htmlspecialchars($row['maker_address'],ENT_QUOTES,'UTF-8')?></a></td>
                     </tr>
                 <?php } ?>
                 <!--Error_Count-->
