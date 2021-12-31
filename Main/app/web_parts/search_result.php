@@ -19,14 +19,4 @@
                         <td><a href="https://www.google.com/maps/place/<?= $row['maker_address']?>"><?=htmlspecialchars($row['maker_address'],ENT_QUOTES,'UTF-8')?></a></td>
                     </tr>
                 <?php } ?>
-                <!--Error_Count-->
-                <?php if(count($sy_errors) > 0): ?>
-                    <?php
-                        foreach($sy_errors as $sy_value){
-                            if(isset($sy_value)){
-                                echo "<p>".$sy_value."</p>";
-                            }
-                        }
-                    ?>
-                <?php endif ?>
 </div>
