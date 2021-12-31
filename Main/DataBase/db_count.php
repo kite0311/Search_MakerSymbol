@@ -1,6 +1,6 @@
 <?php
 
-    require("db_functions.php");
+    require("db_config.php");
 
     /* SQL文を定義 */
     $sql = "SELECT COUNT(*) FROM search";
