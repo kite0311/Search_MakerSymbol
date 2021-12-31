@@ -22,6 +22,3 @@ require("../app/web_parts/search_result.php");
 
 include("../app/web_parts/_footer.php");
 ?>
-
-    </body>
-</html>
