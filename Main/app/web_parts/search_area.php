@@ -5,7 +5,7 @@
             <table style="border-color: #b4d46e;">
                 <tr>
                     <td class="label">記号:<span style="color: #FF0000">必須<span></td>
-                    <td class="search_symbol"><input type="text" name="symbol" size="5" max_length="10" placeholder="例: A" required></td>            
+                    <td class="search_symbol"><input type="text" name="symbol" size="5" max_length="10" placeholder="例: A" required></td>
                 </tr>
                 <tr>
                     <td class="label">製造者:</td>
