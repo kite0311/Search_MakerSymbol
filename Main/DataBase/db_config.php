@@ -36,7 +36,7 @@ class dbCount extends Connect
     }
 }
 
-/*データベース検索処理関数 */
+/* 未完成 データベース検索処理関数 */
 class dbSearch extends Connect
 {
     public $sql;
