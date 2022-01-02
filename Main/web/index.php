@@ -13,10 +13,6 @@ require("../app/DataBase/db_count.php");
 //DB記号検索エリアの読み込み
 include("../app/web_parts/search_area.php");
 
-?>
-
-<?php
-
 //フッターの読み込み
 include("../app/web_parts/_footer.php");
 
