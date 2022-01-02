@@ -14,5 +14,6 @@
                 <tr>
                     <td class="search_button"><input type="submit" value="検索" name="search" id="search"></td>
                 </tr>
+                    <input type="hidden" name="token" value="<?= Token($_SESSION['token']); ?>">
             </table>
         </div>
