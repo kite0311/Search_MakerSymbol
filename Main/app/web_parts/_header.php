@@ -14,9 +14,9 @@
         <header>
             <nav class="menu" id="menu">
                 <ul style="display: flex;">
-                    <li><a href="../Home/What.php" class="What" aligen="center">固有記号とは？</a></li>
-                    <li><a href="../Join_sys/signup.php">データベース管理</a></li>
-                    <li><a href="../contact/contactForm.html" id="contact_form">問い合わせ</a></li>
+                    <li><a href="What.php" class="What" aligen="center">固有記号とは？</a></li>
+                    <li><a href="../app/Join_sys/signup.php">データベース管理</a></li>
+                    <li><a href="../app/Contact_form/contactForm.html" id="contact_form">問い合わせ</a></li>
                 </ul>
             </nav>
         </header>
