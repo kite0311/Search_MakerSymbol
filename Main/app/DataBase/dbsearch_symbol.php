@@ -8,6 +8,7 @@ if($_SERVER['REQUEST_METHOD'] === 'GET') {
     /* フォームからの値を取得 */
     $symbol = trim(filter_input(INPUT_GET,'symbol'));
     $maker  = trim(filter_input(INPUT_GET,'maker'));
+    
     /* $symbol,$makerに値が入っていた時 */
     if(!empty($symbol && $maker)) {
         validateToken();
